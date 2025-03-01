@@ -19,6 +19,16 @@
 # │   └── sort.rb
 # └── main.rb
 #
+#
+# ├── lib
+# │   ├── planets
+# │   │   ├── gas_giant.rb
+# │   │   ├── terrestrial.rb
+# │   │   └── ice_giant.rb
+# │   └── planet.rb
+# └── main.rb
+#
+# #
 # You're in the root of the project, the directory that holds main.rb
 #
 # main.rb
@@ -84,3 +94,22 @@ puts "I'm blue da ba dee da ba di!".colorize(:blue)
 
 puts "It ain't easy bein' green...".colorize(:green)
 
+
+
+# my_ruby_project/
+# ├── Gemfile
+# ├── Gemfile.lock
+# ├── data/                # Directory for your .txt files
+#       │   ├── example.txt      # Example .txt file
+# ├── lib/
+#       │   ├── file_handler.rb
+# │   ├── my_ruby_class.rb
+# │   └── my_ruby_project.rb
+# ├── main.rb
+# ├── spec/
+#       │   ├── file_handler_spec.rb
+# │   ├── my_ruby_class_spec.rb
+# │   └── spec_helper.rb
+# ├── README.md
+# ├── .gitignore
+# └── .rspec

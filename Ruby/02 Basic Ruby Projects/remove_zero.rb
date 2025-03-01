@@ -12,8 +12,8 @@ list2 = [0, 1, 2, 0, 0, 1, 4]
 
 list2.each_with_index do |number, index|
   if number == 0
-    list2.delete_at(index)  
-    list2.push(0)            
+    list2.delete_at(index)
+    list2.push(0)
   end
 end
 

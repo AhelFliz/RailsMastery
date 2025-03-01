@@ -3,10 +3,10 @@
 # Add a class method to your MyCar class that calculates the gas mileage (i.e. miles per gallon) of any car.
 # Override the to_s method to create a user friendly print out of your object.
 class MyCar2
-
   def initialize(model)
     @model = model
   end
+
   def self.gas_mileage(gallons, miles)
     puts "#{miles/gallons} miles per gallon of gas"
   end

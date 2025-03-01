@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ColdWar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/XX Playground/twitter/sphinxbase" vcs="Git" />
   </component>
 </project>
